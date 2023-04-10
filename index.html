@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>tech-A-sketch</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="Header__tittle">tech-A-sketch</h1>
+      <h3 class="Header__subTittle">
+        A<span>TheOdinProjetc.com</span> Challenge
+      </h3>
+    </header>
+
+    <main>
+      <section class="grid">
+        <section class="gridSize">
+          <h3 class="gridSize__tittle">Select grid size</h3>
+          <input
+            class="gridSize__input"
+            id="numberInput"
+            type="number"
+            value="10"
+          />
+          <button class="gridSize__button" type="button" id="numberButton">
+            Done
+          </button>
+        </section>
+        <section class="colorGrid">
+          <h3 class="colorGrid__tittle">Color</h3>
+          <div class="colorGrid__colorGrid">
+            <div
+              class="colorGrid__color"
+              id="blue"
+              style="
+                background-color: blue;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+              "
+            ></div>
+            <div
+              class="colorGrid__color"
+              id="red"
+              style="
+                background-color: red;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+              "
+            ></div>
+            <div
+              class="colorGrid__color"
+              id="yellow"
+              style="
+                background-color: yellow;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+              "
+            ></div>
+            <div
+              class="colorGrid__color"
+              id="green"
+              style="
+                background-color: green;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+              "
+            ></div>
+            <div
+              class="colorGrid__color"
+              id="showColor"
+              style="
+                background-color: grey;
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                border: 1.5px solid black;
+              "
+            ></div>
+          </div>
+        </section>
+      </section>
+      
+      <div id="MainPad"></div>
+      <script src="js-sketch.js"></script>
+    </main>
+    <footer>
+      <h3>Carlos Nicolas Brambilla</h3>
+      <a href="">my LinkedIn profile</a>
+    </footer>
+  </body>
+</html>
